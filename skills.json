@@ -1,0 +1,31 @@
+{
+  "skills": [
+    {
+      "name": "mock-interview",
+      "source": "local",
+      "description": "模擬技術面試，針對 JD 產生深度提問"
+    },
+    {
+      "name": "karpathy-guidelines",
+      "source": "local",
+      "description": "Karpathy 編碼原則：Think Before Coding / Simplicity First / Surgical Changes"
+    },
+    {
+      "name": "job-intel-taiwan",
+      "source": "local",
+      "description": "台灣求職目標公司情蒐，輸出標準化情報報告"
+    },
+    {
+      "name": "stock-market-analyst",
+      "source": "local",
+      "description": "台股／美股／ETF 結構性分析"
+    },
+    {
+      "name": "session-handoff",
+      "source": "github",
+      "repo": "softaworks/agent-toolkit",
+      "path": "skills/session-handoff",
+      "description": "跨 session context 保存與移交，解決 context window 耗盡問題"
+    }
+  ]
+}
