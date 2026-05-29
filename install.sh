@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SKILL_DIR="${HOME}/.claude/skills/user"
+SKILL_DIR="${HOME}/.claude/skills"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SKILLS_SRC="${SCRIPT_DIR}/skills"
 

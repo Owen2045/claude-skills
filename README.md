@@ -1,6 +1,6 @@
 # claude-skills
 
-Owen 的 Claude Code skill 集合，一鍵安裝到本機 `~/.claude/skills/user/`。
+Owen 的 Claude Code skill 集合，一鍵安裝到本機 `~/.claude/skills/`。
 
 ## 安裝
 
