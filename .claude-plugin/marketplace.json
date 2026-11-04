@@ -1,0 +1,38 @@
+{
+  "name": "owen-skills",
+  "owner": {
+    "name": "Owen"
+  },
+  "description": "Owen 的 Claude Code skill 與插件集合",
+  "plugins": [
+    {
+      "name": "change-flow",
+      "source": "./plugins/change-flow",
+      "description": "非小改動的寫程式流程：先列爆炸範圍，改完派 sub-agent 檢查"
+    },
+    {
+      "name": "mock-interview",
+      "source": "./",
+      "description": "模擬技術面試，針對 JD 產生深度提問",
+      "skills": [
+        "./skills/mock-interview"
+      ]
+    },
+    {
+      "name": "job-intel-taiwan",
+      "source": "./",
+      "description": "台灣求職目標公司情蒐，輸出標準化情報報告",
+      "skills": [
+        "./skills/job-intel-taiwan"
+      ]
+    },
+    {
+      "name": "stock-market-analyst",
+      "source": "./",
+      "description": "台股／美股／ETF 結構性分析",
+      "skills": [
+        "./skills/stock-market-analyst"
+      ]
+    }
+  ]
+}

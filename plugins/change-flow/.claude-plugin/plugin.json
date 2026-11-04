@@ -1,0 +1,7 @@
+{
+  "name": "change-flow",
+  "version": "0.1.0",
+  "description": "非小改動的寫程式流程：先列爆炸範圍、最小改動、改完派 blast-radius 與 verifier 兩個唯讀 sub-agent 平行檢查。附開 session 注入的寫程式原則。",
+  "author": { "name": "Owen" },
+  "license": "MIT"
+}
