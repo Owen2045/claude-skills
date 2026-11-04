@@ -1,5 +1,5 @@
 {
-  "name": "task-framing",
+  "name": "owen-task-framing",
   "description": "任務釐清：/owen-sharpen 把任務做深再改寫 prompt，/owen-in-your-own-words 用自己的話複述使用者目標。僅手動呼叫。改寫自 pstack。",
   "author": {
     "name": "Owen"

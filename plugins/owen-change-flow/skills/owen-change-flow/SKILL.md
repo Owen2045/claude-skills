@@ -31,7 +31,7 @@ For a bug, reproduce it first and only then build the Scope list. Follow the `di
 
 ## 3. Check (after editing, before saying done)
 
-Dispatch both sub-agents **in parallel, in one message**, with the Agent tool (`subagent_type`: `change-flow:blast-radius` and `change-flow:verifier`). Give each one the same brief:
+Dispatch both sub-agents **in parallel, in one message**, with the Agent tool (`subagent_type`: `owen-change-flow:blast-radius` and `owen-change-flow:verifier`). Give each one the same brief:
 
 - the goal of the change, in one sentence
 - the Scope block

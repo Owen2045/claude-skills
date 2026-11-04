@@ -1,6 +1,6 @@
 ---
 name: verifier
-description: Read-only checker that verifies a code change on the real surface the user will hit (tests, CLI, endpoint, script) and reports pass or fail with the actual output. Dispatched by the change-flow skill after an edit, before the change is declared done.
+description: Read-only checker that verifies a code change on the real surface the user will hit (tests, CLI, endpoint, script) and reports pass or fail with the actual output. Dispatched by the owen-change-flow skill after an edit, before the change is declared done.
 tools: Read, Grep, Glob, Bash
 ---
 

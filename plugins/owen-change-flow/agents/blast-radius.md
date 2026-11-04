@@ -1,6 +1,6 @@
 ---
 name: blast-radius
-description: Read-only checker that finds what a code change could break beyond its diff, and proves the one fact the change is safe because of by running real code. Dispatched by the change-flow skill after an edit, before the change is declared done.
+description: Read-only checker that finds what a code change could break beyond its diff, and proves the one fact the change is safe because of by running real code. Dispatched by the owen-change-flow skill after an edit, before the change is declared done.
 tools: Read, Grep, Glob, Bash
 ---
 

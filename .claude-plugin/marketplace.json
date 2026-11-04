@@ -6,32 +6,32 @@
   "description": "Owen 的 Claude Code skill 與插件集合",
   "plugins": [
     {
-      "name": "change-flow",
-      "source": "./plugins/change-flow",
+      "name": "owen-change-flow",
+      "source": "./plugins/owen-change-flow",
       "description": "非小改動的寫程式流程：先列爆炸範圍，改完派 sub-agent 檢查"
     },
     {
-      "name": "coding-principles",
-      "source": "./plugins/coding-principles",
+      "name": "owen-coding-principles",
+      "source": "./plugins/owen-coding-principles",
       "description": "寫程式原則包：質疑前提、冪等、共享狀態、把教訓寫進結構、可驗證小單元，依情境自動套用"
     },
     {
-      "name": "perf-measurement",
-      "source": "./plugins/perf-measurement",
+      "name": "owen-perf-measurement",
+      "source": "./plugins/owen-perf-measurement",
       "description": "效能量測：回報效能數字前先找出瓶頸並排除量錯東西，附 benchmark 檢查清單"
     },
     {
-      "name": "task-framing",
-      "source": "./plugins/task-framing",
+      "name": "owen-task-framing",
+      "source": "./plugins/owen-task-framing",
       "description": "任務釐清：手動呼叫 /owen-sharpen 把任務做深、/owen-in-your-own-words 複述使用者目標"
     },
     {
-      "name": "jira-log",
-      "source": "./plugins/jira-log",
+      "name": "owen-jira-log",
+      "source": "./plugins/owen-jira-log",
       "description": "Jira 紀錄：專案紀錄（sub-task＋主 task 摘要）與時間軸紀錄（需求方何時提供什麼）"
     },
     {
-      "name": "mock-interview",
+      "name": "owen-mock-interview",
       "source": "./",
       "description": "模擬技術面試，針對 JD 產生深度提問",
       "skills": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "job-intel-taiwan",
+      "name": "owen-job-intel-taiwan",
       "source": "./",
       "description": "台灣求職目標公司情蒐，輸出標準化情報報告",
       "skills": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "stock-market-analyst",
+      "name": "owen-stock-market-analyst",
       "source": "./",
       "description": "台股／美股／ETF 結構性分析",
       "skills": [
