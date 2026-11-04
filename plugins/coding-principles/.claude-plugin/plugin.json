@@ -1,0 +1,7 @@
+{
+  "name": "coding-principles",
+  "version": "0.1.0",
+  "description": "寫程式原則包：質疑前提、冪等操作、先分離再序列化共享狀態、把教訓寫進結構、拆成可驗證的小單元。agent 依情境自動套用。改寫自 pstack。",
+  "author": { "name": "Owen" },
+  "license": "MIT"
+}

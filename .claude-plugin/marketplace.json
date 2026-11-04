@@ -11,6 +11,26 @@
       "description": "非小改動的寫程式流程：先列爆炸範圍，改完派 sub-agent 檢查"
     },
     {
+      "name": "coding-principles",
+      "source": "./plugins/coding-principles",
+      "description": "寫程式原則包：質疑前提、冪等、共享狀態、把教訓寫進結構、可驗證小單元，依情境自動套用"
+    },
+    {
+      "name": "perf-measurement",
+      "source": "./plugins/perf-measurement",
+      "description": "效能量測：回報效能數字前先找出瓶頸並排除量錯東西，附 benchmark 檢查清單"
+    },
+    {
+      "name": "task-framing",
+      "source": "./plugins/task-framing",
+      "description": "任務釐清：手動呼叫 /sharpen 把任務做深、/in-your-own-words 複述使用者目標"
+    },
+    {
+      "name": "jira-log",
+      "source": "./plugins/jira-log",
+      "description": "Jira 紀錄：專案紀錄（sub-task＋主 task 摘要）與時間軸紀錄（需求方何時提供什麼）"
+    },
+    {
       "name": "mock-interview",
       "source": "./",
       "description": "模擬技術面試，針對 JD 產生深度提問",

@@ -1,0 +1,7 @@
+{
+  "name": "perf-measurement",
+  "version": "0.1.0",
+  "description": "效能量測：回報或依據效能數字行動前，先找出瓶頸並排除量錯東西的可能。附 benchmark 檢查清單。改寫自 pstack。",
+  "author": { "name": "Owen" },
+  "license": "MIT"
+}
