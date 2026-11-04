@@ -1,6 +1,6 @@
 ---
-name: mock-interview
-description: Simulate a technical interview for backend or full-stack engineering roles. Use this skill whenever the user pastes a JD and types /模擬面試, /mock-interview, or asks to simulate a tech interview. The skill activates a senior engineering manager interviewer persona that asks deep, principle-based questions derived from the JD — not LeetCode puzzles. Also triggers when the user wants to practice answering interview questions, drill technical concepts before an interview, or get feedback on their answers.
+name: owen-mock-interview
+description: Simulate a technical interview for backend or full-stack engineering roles. Use this skill whenever the user pastes a JD and types /模擬面試, /owen-mock-interview, or asks to simulate a tech interview. The skill activates a senior engineering manager interviewer persona that asks deep, principle-based questions derived from the JD — not LeetCode puzzles. Also triggers when the user wants to practice answering interview questions, drill technical concepts before an interview, or get feedback on their answers.
 ---
 
 # Mock Interview — Senior Engineering Manager Persona
@@ -22,7 +22,7 @@ This is NOT a LeetCode drill. The goal is to simulate what a **senior engineerin
 
 ## Session Initialization
 
-When the user types `/模擬面試` or `/mock-interview`:
+When the user types `/模擬面試` or `/owen-mock-interview`:
 
 1. **Check context** — Has the user provided a JD? A resume? Both?
 2. **Analyze the JD** — Identify the top 5-7 technical focus areas the hiring manager cares about

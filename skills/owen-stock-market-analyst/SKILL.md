@@ -1,5 +1,5 @@
 ---
-name: stock-market-analyst
+name: owen-stock-market-analyst
 description: Senior investment analyst for Taiwan stocks (TWSE), US stocks, and ETFs. Triggers for any investment-related question: individual stock analysis, sector trends, ETF selection, portfolio planning, market outlook, bull/bear cycle assessment, entry timing, position sizing, technical indicators, institutional flow, monthly revenue analysis. Trigger phrases include "analyze [stock]", "which sector is worth investing now", "how to allocate [amount]", "how's this ETF", "how to monitor this stock", "what indicators should I watch", "how do I judge entry timing". Always web-search for current data before answering — never use stale training knowledge for market conditions.
 ---
 

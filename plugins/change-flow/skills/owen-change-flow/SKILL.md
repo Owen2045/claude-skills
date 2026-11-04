@@ -1,5 +1,5 @@
 ---
-name: change-flow
+name: owen-change-flow
 description: "Workflow for any non-trivial code change: map the blast radius before editing, make the smallest complete change, then dispatch read-only sub-agents to check what the change could break and verify it on the real surface before declaring done. Use when modifying code that spans more than one file, or touches a public function, schema, config, shared module, or data format. Skip for typo, comment, or copy-only edits."
 ---
 

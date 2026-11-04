@@ -1,5 +1,5 @@
 ---
-name: job-intel-taiwan
+name: owen-job-intel-taiwan
 description: Gather job market intelligence for Taiwan-based job targets. Triggers when the user provides a company name + job title — confirms whether the listing is active, scrapes multiple review platforms, and outputs a structured intelligence report. Trigger keywords include "情蒐", "查一下", "面試心得", "這間公司", or any "company + position" combination. This skill only collects and presents data — no personal scores or recommendations.
 ---
 

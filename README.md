@@ -34,18 +34,20 @@ Owen 的 Claude Code 插件集合。整個 repo 是一個 Claude Code marketplac
 | `change-flow` | 炸夢! | 非小改動的寫程式流程：先列爆炸範圍、最小改動，改完派 `blast-radius` 與 `verifier` 兩個唯讀 sub-agent 平行檢查。開 session 時注入寫程式原則。 |
 | `coding-principles` | 我的做法，我的做人 | 五條寫程式原則（質疑前提、冪等操作、先分離再序列化共享狀態、把教訓寫進結構、拆成可驗證小單元），agent 依情境自動套用。改寫自 pstack。 |
 | `perf-measurement` | 效能量測 | 回報或依據效能數字行動前，先找出瓶頸並排除量錯東西；附 benchmark 檢查清單。改寫自 pstack。 |
-| `task-framing` | 任務釐清 | 手動呼叫：`/sharpen` 把任務做深再改寫 prompt，`/in-your-own-words` 複述使用者目標。改寫自 pstack。 |
-| `jira-log` | Jira 紀錄 | `/jira-project`：把對話整理成 sub-task（標題＋內文）與主 task 摘要（已完成／進行中／待確認），存 `jira-project.md`。`/jira-timeline`：在工作目錄根目錄 `jira-log.md` 記錄需求方何時提供什麼檔案、進度與卡點，開啟後讀到對方檔案會自動記一行。 |
+| `task-framing` | 任務釐清 | 手動呼叫：`/owen-sharpen` 把任務做深再改寫 prompt，`/owen-in-your-own-words` 複述使用者目標。改寫自 pstack。 |
+| `jira-log` | Jira 紀錄 | `/owen-jira-project`：把對話整理成 sub-task（標題＋內文）與主 task 摘要（已完成／進行中／待確認），存 `jira-project.md`。`/owen-jira-timeline`：在工作目錄根目錄 `jira-log.md` 記錄需求方何時提供什麼檔案、進度與卡點，開啟後讀到對方檔案會自動記一行。 |
 | `mock-interview` | 盲嗑面試 | 模擬技術面試，針對 JD 產生深度提問 |
 | `job-intel-taiwan` | 公司背景屌插菊 | 台灣求職目標公司情蒐 |
 | `stock-market-analyst` | 一張不賣，奇蹟自來 | 台股／美股／ETF 結構性分析 |
 
 ## 新增插件
 
-**只有一個 skill**：在 `skills/` 下建目錄放 `SKILL.md`，再到 `.claude-plugin/marketplace.json` 加一筆：
+skill 一律以 `owen-` 開頭（資料夾名與 frontmatter `name` 一致），方便在 `/` 選單搜尋；插件名稱不加。
+
+**只有一個 skill**：在 `skills/` 下建目錄 `owen-<name>/` 放 `SKILL.md`，再到 `.claude-plugin/marketplace.json` 加一筆：
 
 ```json
-{ "name": "<name>", "source": "./", "description": "...", "skills": ["./skills/<name>"] }
+{ "name": "<name>", "source": "./", "description": "...", "skills": ["./skills/owen-<name>"] }
 ```
 
 **有 hook 或 sub-agent**：在 `plugins/<name>/` 下建完整插件（參考 `plugins/change-flow/`），marketplace 那筆的 `source` 指向 `./plugins/<name>`。
@@ -60,23 +62,23 @@ claude-skills/
 ├── plugins/
 │   ├── change-flow/
 │   │   ├── .claude-plugin/plugin.json
-│   │   ├── skills/change-flow/SKILL.md
+│   │   ├── skills/owen-change-flow/SKILL.md
 │   │   ├── agents/blast-radius.md, verifier.md
 │   │   └── hooks/hooks.json, session-start.js, rules.md
-│   ├── coding-principles/            # 5 個 principle-* skill
+│   ├── coding-principles/            # 5 個 owen-principle-* skill
 │   │   ├── .claude-plugin/plugin.json
-│   │   └── skills/principle-*/SKILL.md
+│   │   └── skills/owen-principle-*/SKILL.md
 │   ├── perf-measurement/
 │   │   ├── .claude-plugin/plugin.json
-│   │   └── skills/benchmark-checklist/, principle-explain-the-number/
+│   │   └── skills/owen-benchmark-checklist/, owen-principle-explain-the-number/
 │   ├── task-framing/
 │   │   ├── .claude-plugin/plugin.json
-│   │   └── skills/sharpen/, in-your-own-words/
+│   │   └── skills/owen-sharpen/, owen-in-your-own-words/
 │   └── jira-log/
 │       ├── .claude-plugin/plugin.json
-│       └── skills/jira-project/, jira-timeline/
+│       └── skills/owen-jira-project/, owen-jira-timeline/
 └── skills/                           # 單一 skill 插件
-    ├── mock-interview/
-    ├── job-intel-taiwan/
-    ├── stock-market-analyst/
+    ├── owen-mock-interview/
+    ├── owen-job-intel-taiwan/
+    ├── owen-stock-market-analyst/
 ```

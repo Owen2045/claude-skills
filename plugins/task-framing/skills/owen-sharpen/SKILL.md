@@ -1,6 +1,6 @@
 ---
-name: sharpen
-description: "Make a task deeper, not bigger, then rewrite the prompt. Use for /sharpen."
+name: owen-sharpen
+description: "Make a task deeper, not bigger, then rewrite the prompt. Use for /owen-sharpen."
 disable-model-invocation: true
 ---
 

@@ -7,4 +7,4 @@
 5. 新增的非平凡邏輯（分支、迴圈、parser、金額、安全相關）附一個小測試。丟棄式原型不適用。
 6. 絕不省略：信任邊界的輸入驗證、防止資料遺失的錯誤處理、安全性、使用者明確要求的任何東西。
 7. 使用者明確要求重構或架構調整時，照要求做；本原則只限制不要額外擴張範圍。
-8. 非小改動（跨一個以上檔案，或動到 public function、schema、設定、共用模組、資料格式）一律走 `change-flow` skill：先列範圍，改完派 `blast-radius` 與 `verifier` 兩個 sub-agent 平行檢查，通過後才能說完成。
+8. 非小改動（跨一個以上檔案，或動到 public function、schema、設定、共用模組、資料格式）一律走 `owen-change-flow` skill：先列範圍，改完派 `blast-radius` 與 `verifier` 兩個 sub-agent 平行檢查，通過後才能說完成。

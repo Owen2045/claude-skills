@@ -23,7 +23,7 @@
     {
       "name": "task-framing",
       "source": "./plugins/task-framing",
-      "description": "任務釐清：手動呼叫 /sharpen 把任務做深、/in-your-own-words 複述使用者目標"
+      "description": "任務釐清：手動呼叫 /owen-sharpen 把任務做深、/owen-in-your-own-words 複述使用者目標"
     },
     {
       "name": "jira-log",
@@ -35,7 +35,7 @@
       "source": "./",
       "description": "模擬技術面試，針對 JD 產生深度提問",
       "skills": [
-        "./skills/mock-interview"
+        "./skills/owen-mock-interview"
       ]
     },
     {
@@ -43,7 +43,7 @@
       "source": "./",
       "description": "台灣求職目標公司情蒐，輸出標準化情報報告",
       "skills": [
-        "./skills/job-intel-taiwan"
+        "./skills/owen-job-intel-taiwan"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "source": "./",
       "description": "台股／美股／ETF 結構性分析",
       "skills": [
-        "./skills/stock-market-analyst"
+        "./skills/owen-stock-market-analyst"
       ]
     }
   ]

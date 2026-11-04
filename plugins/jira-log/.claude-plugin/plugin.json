@@ -1,7 +1,7 @@
 {
   "name": "jira-log",
   "version": "0.1.0",
-  "description": "Jira 紀錄：/jira-project 把對話整理成 sub-task 與主 task 摘要；/jira-timeline 在工作目錄根目錄的 jira-log.md 記錄需求方何時提供什麼、進度與卡點。",
+  "description": "Jira 紀錄：/owen-jira-project 把對話整理成 sub-task 與主 task 摘要；/owen-jira-timeline 在工作目錄根目錄的 jira-log.md 記錄需求方何時提供什麼、進度與卡點。",
   "author": { "name": "Owen" },
   "license": "MIT"
 }

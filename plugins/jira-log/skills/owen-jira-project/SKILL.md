@@ -1,6 +1,6 @@
 ---
-name: jira-project
-description: 專案紀錄模式：把對話中完成的工作整理成 Jira 的 sub-task（標題＋內文）與主 task 短版摘要，輸出成可一鍵複製的 code block，並存到工作目錄根目錄的 jira-project.md。使用者輸入 /jira-project 時使用。
+name: owen-jira-project
+description: 專案紀錄模式：把對話中完成的工作整理成 Jira 的 sub-task（標題＋內文）與主 task 短版摘要，輸出成可一鍵複製的 code block，並存到工作目錄根目錄的 jira-project.md。使用者輸入 /owen-jira-project 時使用。
 disable-model-invocation: true
 ---
 
